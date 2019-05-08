@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2DGameFrameWork">
+      <UniqueIdentifier>{1c6809fa-a182-415d-b335-789339d2b8f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFrameWork\Manager">
+      <UniqueIdentifier>{31408ee8-00de-4740-811d-a6e4fdbcb71f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame">
+      <UniqueIdentifier>{d69d1829-f2b0-49fe-ad7c-9337a46af845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFrameWork\UTIL">
+      <UniqueIdentifier>{6db62d6e-83d9-406e-9efd-3001d71d8e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFrameWork\image">
+      <UniqueIdentifier>{67d5ed0d-353a-42aa-b119-d332b3a34f5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFrameWork\txtData">
+      <UniqueIdentifier>{3b61dcdb-a81e-4d48-a808-5227cbbff4b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFrameWork\progressBar">
+      <UniqueIdentifier>{4a6444ce-8248-484f-ab94-cd687ab5abe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFrameWork\timer">
+      <UniqueIdentifier>{df29e5e8-0aa0-417d-8bd9-d01fd5d37625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFrameWork\animation">
+      <UniqueIdentifier>{51b68636-6ae0-49af-bf4a-892f8f7b08a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFrameWork\effect">
+      <UniqueIdentifier>{dfe7019d-ad5c-4270-a6b2-424ec730d761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\board">
+      <UniqueIdentifier>{8f02c2e7-983d-4194-a957-f4658afef88e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\puyo">
+      <UniqueIdentifier>{4e0c99f4-64f7-4bc6-89db-96a29a20f2fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\enemy">
+      <UniqueIdentifier>{47f83199-d073-42f4-86fa-b8a0089f8b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\puyo\red">
+      <UniqueIdentifier>{bf88b0b6-3819-4642-bdd7-e8cf61c0c32b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\puyo\green">
+      <UniqueIdentifier>{2c1205d4-f9fa-4dac-94da-63628ddedd46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\puyo\blue">
+      <UniqueIdentifier>{e7c91c61-0253-4dce-a1de-e7d5c9e68656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\puyo\yellow">
+      <UniqueIdentifier>{60813765-4e16-44cc-9262-be5b479ff70e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\enemy\witch">
+      <UniqueIdentifier>{1fc5f323-6959-48e8-a330-7c1f899a8d2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\puyo\purple">
+      <UniqueIdentifier>{47acaef5-73f6-4767-aa98-8256d95ab693}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>2DGameFrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>2DGameFrameWork\UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>2DGameFrameWork\image</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="saveLoadData.h">
+      <Filter>mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>2DGameFrameWork\txtData</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>2DGameFrameWork\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>2DGameFrameWork\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>2DGameFrameWork\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>2DGameFrameWork\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="destroyPixelManager.h">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="puyo.h">
+      <Filter>mainGame\puyo</Filter>
+    </ClInclude>
+    <ClInclude Include="yellow.h">
+      <Filter>mainGame\puyo\yellow</Filter>
+    </ClInclude>
+    <ClInclude Include="red.h">
+      <Filter>mainGame\puyo\red</Filter>
+    </ClInclude>
+    <ClInclude Include="purple.h">
+      <Filter>mainGame\puyo\purple</Filter>
+    </ClInclude>
+    <ClInclude Include="blue.h">
+      <Filter>mainGame\puyo\blue</Filter>
+    </ClInclude>
+    <ClInclude Include="green.h">
+      <Filter>mainGame\puyo\green</Filter>
+    </ClInclude>
+    <ClInclude Include="puyoManager.h">
+      <Filter>mainGame\puyo</Filter>
+    </ClInclude>
+    <ClInclude Include="witch.h">
+      <Filter>mainGame\enemy\witch</Filter>
+    </ClInclude>
+    <ClInclude Include="board.h">
+      <Filter>mainGame\board</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>mainGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>2DGameFrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>2DGameFrameWork\UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>2DGameFrameWork\image</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="saveLoadData.cpp">
+      <Filter>mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>2DGameFrameWork\txtData</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>2DGameFrameWork\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>2DGameFrameWork\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>2DGameFrameWork\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>2DGameFrameWork\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="destroyPixelManager.cpp">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="puyo.cpp">
+      <Filter>mainGame\puyo</Filter>
+    </ClCompile>
+    <ClCompile Include="yellow.cpp">
+      <Filter>mainGame\puyo\yellow</Filter>
+    </ClCompile>
+    <ClCompile Include="red.cpp">
+      <Filter>mainGame\puyo\red</Filter>
+    </ClCompile>
+    <ClCompile Include="purple.cpp">
+      <Filter>mainGame\puyo\purple</Filter>
+    </ClCompile>
+    <ClCompile Include="blue.cpp">
+      <Filter>mainGame\puyo\blue</Filter>
+    </ClCompile>
+    <ClCompile Include="green.cpp">
+      <Filter>mainGame\puyo\green</Filter>
+    </ClCompile>
+    <ClCompile Include="puyoManager.cpp">
+      <Filter>mainGame\puyo</Filter>
+    </ClCompile>
+    <ClCompile Include="witch.cpp">
+      <Filter>mainGame\enemy\witch</Filter>
+    </ClCompile>
+    <ClCompile Include="board.cpp">
+      <Filter>mainGame\board</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>mainGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
